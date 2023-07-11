@@ -1,0 +1,22 @@
+1.Difference between document and window object
+------------------------------------------------------
+
+Document is loaded inside the browser and window object which are seeing the content. Document is loaded after the window and window object loaded before the document because window
+contain container document.
+
+Document is the root element window object is the global element for all functions and objects. Document is object of the window and window is object of the browser.
+
+In document object we cannot access window objects properties inside the document. In window obejct we can access document obeject properties insdide the window.
+
+document is part of BOM (browser object model) and dom (Document object model) but window object is part of BOM, not DOM.
+
+syntax of document object is
+	document.propertyname;
+
+syntax of window object is
+	window.propertyname;
+
+Example of document object (document.title) will return the title of the document. Example of window object (window.title) will return the title of the document.
+
+
+
